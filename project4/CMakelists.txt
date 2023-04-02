@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.5)
+project(project4)
+
+set(CMAKE_CXX_STANDARD 11)  # 指定为 C++ 版本
+set(CMAKE_BUILD_TYPE Release)  # Debug模式可以调试，Release模式运行速度快
+SET(CMAKE_CXX_COMPILER "g++")
+SET(CMAKE_C_COMPILER "g++")
+
+message("${PROJECT_SOURCE_DIR}=" ${PROJECT_SOURCE_DIR})
+
+# 这里设置好路径后，进入子模块的cmake时不用再次设置
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)  # 设置可执行文件的输出目录
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)	   # 设置库文件的输出目录
+
+include_directories(${PROJECT_SOURCE_DIR}/include/)
+
+add_library(cpu ${PROJECT_SOURCE_DIR}/src/cpu.c)
+
+add_library(list ${PROJECT_SOURCE_DIR}/src/list.c)
+
+add_library(map ${PROJECT_SOURCE_DIR}/src/map.c)
+
+add_library(pmap ${PROJECT_SOURCE_DIR}/src/pmap.c)
+
+# 编译main，生成可执行文件
+add_executable(fcfs main.c ${PROJECT_SOURCE_DIR}/fcfs/fcfs.c)
+target_link_libraries(fcfs cpu list)
+
+add_executable(sjf main.c ${PROJECT_SOURCE_DIR}/sjf/sjf.c)
+target_link_libraries(sjf cpu map)
+
+add_executable(rr  main.c ${PROJECT_SOURCE_DIR}/rr/rr.c)
+target_link_libraries(rr cpu list)
+
+add_executable(pbs main.c ${PROJECT_SOURCE_DIR}/pbs/pbs.c)
+target_link_libraries(pbs cpu pmap)
+
+add_executable(pbrrs main.c ${PROJECT_SOURCE_DIR}/pbrrs/pbrrs.c)
+target_link_libraries(pbrrs cpu pmap list)
+

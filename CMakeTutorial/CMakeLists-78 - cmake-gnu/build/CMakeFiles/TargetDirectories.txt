@@ -1,0 +1,6 @@
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/build/CMakeFiles/add.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/build/CMakeFiles/sub.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/build/CMakeFiles/mul.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/build/CMakeFiles/main.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/build/CMakeFiles/edit_cache.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/build/CMakeFiles/rebuild_cache.dir

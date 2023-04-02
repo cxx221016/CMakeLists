@@ -1,0 +1,3 @@
+"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\sjf.dir/objects.a
+D:\CodeBlocks\MinGW\bin\ar.exe qc CMakeFiles\sjf.dir/objects.a @CMakeFiles\sjf.dir\objects1.rsp
+g++ -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\sjf.dir/objects.a -Wl,--no-whole-archive -o D:\MY_CODE\CMakelists\project4\bin\sjf.exe -Wl,--out-implib,D:\MY_CODE\CMakelists\project4\bin\libsjf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sjf.dir\linkLibs.rsp

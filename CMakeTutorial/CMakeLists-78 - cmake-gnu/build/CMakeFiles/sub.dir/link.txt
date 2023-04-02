@@ -1,0 +1,2 @@
+D:\CodeBlocks\MinGW\bin\ar.exe qc "D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78 - cmake-gnu\lib\libsub.a" CMakeFiles/sub.dir/source/sub/sub.cpp.obj
+D:\CodeBlocks\MinGW\bin\ranlib.exe "D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78 - cmake-gnu\lib\libsub.a"

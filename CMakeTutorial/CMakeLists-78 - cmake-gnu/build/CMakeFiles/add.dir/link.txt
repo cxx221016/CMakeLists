@@ -1,0 +1,2 @@
+D:\CodeBlocks\MinGW\bin\ar.exe qc "D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78 - cmake-gnu\lib\libadd.a" CMakeFiles/add.dir/source/add/add.cpp.obj CMakeFiles/add.dir/source/add/add3.cpp.obj
+D:\CodeBlocks\MinGW\bin\ranlib.exe "D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78 - cmake-gnu\lib\libadd.a"

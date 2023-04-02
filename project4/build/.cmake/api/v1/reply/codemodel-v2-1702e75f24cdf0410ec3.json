@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpu-Release-197d1e15dafd0e67408e.json",
+					"name" : "cpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcfs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcfs-Release-5feae7f7551b40591ed2.json",
+					"name" : "fcfs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list-Release-a531d787a6a232edebc2.json",
+					"name" : "list",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map-Release-016c542dba039b5e1594.json",
+					"name" : "map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pbrrs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pbrrs-Release-3b4613cd7ef5dd3ee8cc.json",
+					"name" : "pbrrs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pbs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pbs-Release-7d3fbb53ec4dfca56db4.json",
+					"name" : "pbs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pmap-Release-74e55c55fb4f75474fe6.json",
+					"name" : "pmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rr-Release-2ffe5899217b0555b7d2.json",
+					"name" : "rr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sjf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sjf-Release-c0690c5f903c7b928953.json",
+					"name" : "sjf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/MY_CODE/CMakelists/project4/build",
+		"source" : "D:/MY_CODE/CMakelists/project4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

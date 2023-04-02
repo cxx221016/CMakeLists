@@ -1,0 +1,10 @@
+^D:\MY_CODE\CMAKELISTS\CMAKETUTORIAL\CMAKELISTS-78-1 CMAKE\SOURCE\ADD\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake" "-BD:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build" --check-stamp-file "D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build/source/add/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,1 @@
+ "D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/lib/libadd.a" "D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/lib/libsub.a" "D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78 - cmake-gnu/lib/libmul.dll.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

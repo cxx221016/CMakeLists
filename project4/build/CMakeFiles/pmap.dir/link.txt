@@ -1,0 +1,2 @@
+D:\CodeBlocks\MinGW\bin\ar.exe qc D:\MY_CODE\CMakelists\project4\lib\libpmap.a CMakeFiles/pmap.dir/src/pmap.c.obj
+D:\CodeBlocks\MinGW\bin\ranlib.exe D:\MY_CODE\CMakelists\project4\lib\libpmap.a

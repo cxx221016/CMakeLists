@@ -1,0 +1,3 @@
+"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\fcfs.dir/objects.a
+D:\CodeBlocks\MinGW\bin\ar.exe qc CMakeFiles\fcfs.dir/objects.a @CMakeFiles\fcfs.dir\objects1.rsp
+g++ -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\fcfs.dir/objects.a -Wl,--no-whole-archive -o D:\MY_CODE\CMakelists\project4\bin\fcfs.exe -Wl,--out-implib,D:\MY_CODE\CMakelists\project4\bin\libfcfs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fcfs.dir\linkLibs.rsp

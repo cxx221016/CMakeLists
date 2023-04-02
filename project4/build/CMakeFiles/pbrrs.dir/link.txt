@@ -1,0 +1,3 @@
+"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\pbrrs.dir/objects.a
+D:\CodeBlocks\MinGW\bin\ar.exe qc CMakeFiles\pbrrs.dir/objects.a @CMakeFiles\pbrrs.dir\objects1.rsp
+g++ -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\pbrrs.dir/objects.a -Wl,--no-whole-archive -o D:\MY_CODE\CMakelists\project4\bin\pbrrs.exe -Wl,--out-implib,D:\MY_CODE\CMakelists\project4\bin\libpbrrs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pbrrs.dir\linkLibs.rsp

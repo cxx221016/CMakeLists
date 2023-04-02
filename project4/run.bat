@@ -1,0 +1,11 @@
+@echo off
+cd bin
+fcfs.exe D:\\MY_CODE\\CMakelists\\project4\\schedule.txt
+echo .
+sjf.exe D:\\MY_CODE\\CMakelists\\project4\\schedule.txt
+echo .
+rr.exe D:\\MY_CODE\\CMakelists\\project4\\schedule.txt
+echo .
+pbs.exe D:\\MY_CODE\\CMakelists\\project4\\schedule.txt
+echo .
+pbrrs.exe D:\\MY_CODE\\CMakelists\\project4\\schedule.txt

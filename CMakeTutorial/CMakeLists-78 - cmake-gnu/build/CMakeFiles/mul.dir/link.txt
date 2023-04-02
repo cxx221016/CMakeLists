@@ -1,0 +1,3 @@
+"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\mul.dir/objects.a
+D:\CodeBlocks\MinGW\bin\ar.exe qc CMakeFiles\mul.dir/objects.a @CMakeFiles\mul.dir\objects1.rsp
+D:\CodeBlocks\MinGW\bin\g++.exe -O3 -DNDEBUG -shared -o "D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78 - cmake-gnu\lib\libmul.dll" -Wl,--out-implib,"D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78 - cmake-gnu\lib\libmul.dll.a" -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\mul.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\mul.dir\linkLibs.rsp

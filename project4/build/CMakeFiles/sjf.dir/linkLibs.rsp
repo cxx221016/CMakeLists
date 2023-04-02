@@ -1,0 +1,1 @@
+ D:/MY_CODE/CMakelists/project4/lib/libcpu.a D:/MY_CODE/CMakelists/project4/lib/libmap.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

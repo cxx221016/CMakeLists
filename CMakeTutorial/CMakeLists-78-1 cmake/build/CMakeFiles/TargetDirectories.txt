@@ -1,0 +1,6 @@
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build/CMakeFiles/ALL_BUILD.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build/CMakeFiles/ZERO_CHECK.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build/source/add/CMakeFiles/add.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build/source/sub/CMakeFiles/sub.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build/source/mul/CMakeFiles/mul.dir
+D:/MY_CODE/CMakelists/CMakeTutorial/CMakeLists-78-1 cmake/build/source/main/CMakeFiles/main.dir

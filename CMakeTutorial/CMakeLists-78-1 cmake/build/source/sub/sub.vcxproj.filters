@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78-1 cmake\source\sub\sub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\MY_CODE\CMakelists\CMakeTutorial\CMakeLists-78-1 cmake\source\sub\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0D520C90-8B51-3AC7-BAA9-8ECF71E20243}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

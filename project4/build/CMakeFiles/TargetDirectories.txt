@@ -1,0 +1,11 @@
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/cpu.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/list.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/map.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/pmap.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/fcfs.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/sjf.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/rr.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/pbs.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/pbrrs.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/edit_cache.dir
+D:/MY_CODE/CMakelists/project4/build/CMakeFiles/rebuild_cache.dir
